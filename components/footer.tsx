@@ -44,7 +44,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-sm text-foreground/50 leading-relaxed mt-4 max-w-xs">
-              Premium property care for homes, offices, and Airbnb properties. Honest work, every time.
+              We clean homes, offices, and Airbnbs. Honest work, fair prices.
             </p>
             <div className="flex flex-col gap-2 mt-5">
               <a href="tel:+18254549172" className="text-sm text-foreground/55 hover:text-foreground transition-colors duration-300">

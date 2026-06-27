@@ -12,12 +12,12 @@ const steps = [
   {
     number: "02",
     title: "Clean",
-    description: "A vetted professional arrives on time with eco-friendly products. You don't need to be home.",
+    description: "Our team shows up on time with everything they need. You don't even have to be home.",
   },
   {
     number: "03",
     title: "Enjoy",
-    description: "Come home to hotel-quality cleanliness. Not satisfied? We return and make it right, free.",
+    description: "Walk into a place that actually feels clean. Not happy? We come back and fix it — no charge.",
   },
 ]
 

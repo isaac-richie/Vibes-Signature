@@ -7,22 +7,22 @@ import { ArrowRight } from "lucide-react"
 const services = [
   {
     title: "Home Cleaning",
-    description: "Thorough top-to-bottom residential cleaning tailored to your household.",
+    description: "We clean your whole place — kitchens, bathrooms, floors, surfaces. All of it.",
     image: "/images/service-home.png",
   },
   {
     title: "Office Cleaning",
-    description: "Professional commercial cleaning that keeps your workspace productive.",
+    description: "Desks, floors, kitchens, washrooms — we keep your office looking sharp.",
     image: "/images/service-office.png",
   },
   {
     title: "Deep Cleaning",
-    description: "Intensive full-property clean — every corner, every surface, every detail.",
+    description: "The heavy-duty clean. Baseboards, inside cabinets, behind appliances — the works.",
     image: "/images/service-deep.png",
   },
   {
     title: "Carpet & Sofa",
-    description: "Expert fabric and upholstery care that restores freshness.",
+    description: "Stains, odours, ground-in dirt — we get your carpets and sofas looking new again.",
     image: "/images/service-sofa.png",
   },
   {
@@ -32,7 +32,7 @@ const services = [
   },
   {
     title: "Move-In / Out",
-    description: "Comprehensive cleaning for transitions — arrive to a spotless space.",
+    description: "Moving in or out? We make sure the place is spotless before you hand over the keys.",
     image: "/images/service-move.png",
   },
 ]

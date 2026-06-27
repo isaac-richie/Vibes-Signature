@@ -6,11 +6,11 @@ import { motion, useScroll, useTransform } from "framer-motion"
 const features = [
   {
     title: "Vetted professionals",
-    description: "Every cleaner is background-checked, insured, and trained to our standard. No exceptions.",
+    description: "Everyone on our team is background-checked and insured. We don't cut corners on who we send to your place.",
   },
   {
     title: "Eco-friendly products",
-    description: "Non-toxic, biodegradable products only. Safe for children, pets, and the planet.",
+    description: "We use non-toxic, biodegradable products. Safe if you have kids or pets.",
   },
   {
     title: "Flexible scheduling",
@@ -21,8 +21,8 @@ const features = [
     description: "Not happy with your clean? We come back and make it right at no extra charge.",
   },
   {
-    title: "Obsessive attention",
-    description: "From baseboards to blinds, we treat every corner like it's our own home.",
+    title: "We actually care",
+    description: "Baseboards, blinds, under the couch — the stuff most cleaners skip, we don't.",
   },
 ]
 
@@ -49,7 +49,7 @@ export default function WhyUsSection() {
             >
               <p className="text-[13px] font-medium tracking-[0.2em] uppercase text-foreground/55 mb-4">Why us</p>
               <h2 className="font-heading text-4xl md:text-[3.2rem] font-semibold text-foreground leading-[1.1] tracking-tight">
-                The standard others can&apos;t match.
+                Why people stick with&nbsp;us.
               </h2>
             </motion.div>
 

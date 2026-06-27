@@ -8,31 +8,31 @@ const testimonials = [
   {
     name: "Aaliyah Thompson",
     role: "Homeowner",
-    text: "My home looked like a 5-star hotel after the first visit. I've never had a cleaning service this thorough.",
+    text: "I didn't expect much honestly, but I came home and my place had never looked this good. Booked them again the same week.",
     image: "/images/client-aaliyah.png",
   },
   {
     name: "Marcus Williams",
     role: "Property Manager",
-    text: "I manage 12 rental properties and Vibe handles all turnover cleans. Reliable, consistent, exceptional.",
+    text: "I manage a few rental properties and Vibe handles all my turnover cleans. They just show up and get it done — no drama.",
     image: "/images/client-marcus.png",
   },
   {
     name: "Brianna Foster",
     role: "Interior Designer",
-    text: "As someone who notices every detail — these guys miss nothing. Booked same-day and they arrived on time.",
+    text: "I'm picky about cleaning — I notice everything. These guys actually got it right. Even the grout lines.",
     image: "/images/client-brianna.png",
   },
   {
     name: "Devon Carter",
     role: "Office Manager",
-    text: "The team was professional, quiet, and gone before our staff arrived. The office was stunning.",
+    text: "They cleaned our office before staff came in — quiet, fast, and the place looked brand new. We use them weekly now.",
     image: "/images/client-devon.png",
   },
   {
     name: "Imani Jackson",
     role: "New Homeowner",
-    text: "Used the move-in clean package — even the inside of the oven was spotless. Worth every penny.",
+    text: "Just moved into a new place and booked the move-in clean. They even did inside the oven and behind the fridge. Solid.",
     image: "/images/client-imani.png",
   },
 ]
@@ -60,7 +60,7 @@ export default function TestimonialsSection() {
         >
           <p className="text-[13px] font-medium tracking-[0.2em] uppercase text-foreground/55 mb-4">Testimonials</p>
           <h2 className="font-heading text-4xl md:text-[3.2rem] font-semibold text-foreground leading-[1.1] tracking-tight max-w-sm">
-            Trusted by thousands.
+            What our clients say.
           </h2>
         </motion.div>
 

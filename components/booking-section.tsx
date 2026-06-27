@@ -38,7 +38,7 @@ export default function BookingSection() {
               Request your cleaning.
             </h2>
             <p className="text-foreground/55 leading-relaxed mb-10 max-w-sm">
-              Tell us what you need. We confirm availability and send a tailored quote within 30 minutes.
+              Fill this out and we'll get back to you within 30 minutes with a quote.
             </p>
 
             <div className="space-y-4 text-sm text-foreground/55">

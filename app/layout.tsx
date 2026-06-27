@@ -11,8 +11,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Vibe Signatures Property Care | Premium Cleaning Services',
-  description: 'Professional property care services delivering hotel-level cleanliness to your home and office. Book today for same-day service.',
+  title: 'Vibe Signatures | Home, Office & Airbnb Cleaning',
+  description: 'Vibe Signatures cleans homes, offices, and Airbnb properties. Eco-friendly products, insured team, satisfaction guaranteed. Book online.',
   generator: 'v0.app',
   icons: {
     icon: [

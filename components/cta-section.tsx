@@ -27,10 +27,10 @@ export default function CtaSection() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
             <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-semibold text-background leading-[1.1] tracking-tight mb-6">
-              Come home to cleanliness.
+              Ready for a clean space?
             </h2>
             <p className="text-background/40 text-lg mb-12 max-w-md mx-auto leading-relaxed">
-              Join thousands who trust Vibe Signatures for their property care.
+              Book a cleaning and see the difference yourself. No contracts, no hassle.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4">

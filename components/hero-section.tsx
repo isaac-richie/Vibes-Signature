@@ -38,7 +38,7 @@ export default function HeroSection() {
       <motion.div className="absolute inset-0" style={{ y: imageY, scale: imageScale }}>
         <Image
           src="/images/hero-clean.png"
-          alt="Pristine luxury living room"
+          alt="Clean living room"
           fill
           className="object-cover"
           priority
@@ -58,7 +58,7 @@ export default function HeroSection() {
             transition={{ duration: 1, delay: 0.2 }}
             className="text-[13px] font-medium tracking-[0.2em] uppercase text-foreground/55 mb-6"
           >
-            Premium Property Care
+            Cleaning done right
           </motion.p>
 
           <h1 className="font-heading text-[clamp(2.8rem,6vw,5rem)] font-semibold text-foreground leading-[1.05] tracking-tight mb-8">
@@ -80,8 +80,8 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="text-base text-foreground/60 leading-relaxed max-w-md mb-10"
           >
-            Hotel-level cleanliness for your home and office.
-            Tailored to your schedule, delivered with care.
+            We clean homes, offices, and Airbnb properties across the city.
+            You pick the date — we show up and do it right.
           </motion.p>
 
           <motion.div
