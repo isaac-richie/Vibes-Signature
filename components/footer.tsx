@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react"
+import Image from "next/image"
 
 const links = {
   Services: [
@@ -6,7 +7,7 @@ const links = {
     { label: "Office Cleaning", href: "#services" },
     { label: "Deep Cleaning", href: "#services" },
     { label: "Carpet & Sofa", href: "#services" },
-    { label: "Window Cleaning", href: "#services" },
+    { label: "Airbnb Turnover", href: "#services" },
     { label: "Move-In / Out", href: "#services" },
   ],
   Company: [
@@ -27,12 +28,32 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 pt-20 pb-10">
         <div className="grid lg:grid-cols-5 gap-12 mb-20">
           <div className="lg:col-span-2">
-            <span className="font-heading text-[1.1rem] font-semibold tracking-tight text-foreground">
-              Vibe Signatures
-            </span>
+            <div className="flex items-center gap-2.5">
+              <Image src="/images/logo-mark.svg" alt="VS" width={36} height={36} />
+              <div className="flex flex-col">
+                <span className="font-heading text-[1.05rem] font-semibold tracking-[0.02em] leading-tight"
+                  style={{ background: "linear-gradient(135deg, #C5A044, #D4AF37, #A07D2A)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}
+                >
+                  Vibe Signatures
+                </span>
+                <span className="text-[8.5px] font-semibold tracking-[0.28em] uppercase leading-none mt-0.5"
+                  style={{ background: "linear-gradient(135deg, #C5A044, #D4AF37, #A07D2A)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", opacity: 0.7 }}
+                >
+                  Property Care
+                </span>
+              </div>
+            </div>
             <p className="text-sm text-foreground/50 leading-relaxed mt-4 max-w-xs">
-              Premium property care for homes and offices. Hotel-level cleanliness, every time.
+              Premium property care for homes, offices, and Airbnb properties. Honest work, every time.
             </p>
+            <div className="flex flex-col gap-2 mt-5">
+              <a href="tel:+18254549172" className="text-sm text-foreground/55 hover:text-foreground transition-colors duration-300">
+                (825) 454-9172
+              </a>
+              <a href="mailto:vibesignatures25@gmail.com" className="text-sm text-foreground/55 hover:text-foreground transition-colors duration-300">
+                vibesignatures25@gmail.com
+              </a>
+            </div>
           </div>
 
           {Object.entries(links).map(([category, items]) => (

@@ -26,9 +26,9 @@ const services = [
     image: "/images/service-sofa.png",
   },
   {
-    title: "Window Cleaning",
-    description: "Crystal-clear windows inside and out for a brighter space.",
-    image: "/images/service-window.png",
+    title: "Airbnb Turnover",
+    description: "Fast, reliable cleaning between guests — ready for every check-in.",
+    image: "/images/service-airbnb.png",
   },
   {
     title: "Move-In / Out",

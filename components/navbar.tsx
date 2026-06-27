@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence, useMotionValueEvent, useScroll } from "framer-motion"
 import { Menu, X, ArrowRight } from "lucide-react"
+import Image from "next/image"
 
 const navLinks = [
   { label: "Services", href: "#services" },
@@ -11,14 +12,16 @@ const navLinks = [
   { label: "Reviews", href: "#testimonials" },
 ]
 
-function Monogram() {
+function LogoMark({ className = "w-10 h-10" }: { className?: string }) {
   return (
-    <div className="relative w-9 h-9 flex items-center justify-center">
-      <div className="absolute inset-0 rounded-full border border-foreground/[0.12]" />
-      <span className="font-heading text-[13px] font-semibold tracking-[0.04em] text-foreground">
-        VS
-      </span>
-    </div>
+    <Image
+      src="/images/logo-mark.svg"
+      alt="VS"
+      width={40}
+      height={40}
+      className={className}
+      priority
+    />
   )
 }
 
@@ -49,13 +52,17 @@ export default function Navbar() {
       >
         <div className="max-w-6xl mx-auto px-6 h-[72px] flex items-center justify-between">
           {/* Brand */}
-          <a href="#" className="flex items-center gap-3 group">
-            <Monogram />
+          <a href="#" className="flex items-center gap-2.5 group">
+            <LogoMark />
             <div className="flex flex-col">
-              <span className="font-heading text-[1.05rem] font-semibold tracking-[0.02em] text-foreground leading-tight">
+              <span className="font-heading text-[1.05rem] font-semibold tracking-[0.02em] leading-tight"
+                style={{ background: "linear-gradient(135deg, #C5A044, #D4AF37, #A07D2A)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}
+              >
                 Vibe Signatures
               </span>
-              <span className="text-[9px] font-medium tracking-[0.25em] uppercase text-foreground/40 leading-none mt-0.5">
+              <span className="text-[8.5px] font-semibold tracking-[0.28em] uppercase leading-none mt-0.5"
+                style={{ background: "linear-gradient(135deg, #C5A044, #D4AF37, #A07D2A)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", opacity: 0.7 }}
+              >
                 Property Care
               </span>
             </div>
@@ -78,10 +85,10 @@ export default function Navbar() {
           {/* Right side */}
           <div className="hidden md:flex items-center gap-6">
             <a
-              href="tel:+14045550123"
+              href="tel:+18254549172"
               className="text-[12px] font-medium tracking-[0.04em] text-foreground/40 hover:text-foreground transition-colors duration-500"
             >
-              (404) 555-0123
+              (825) 454-9172
             </a>
             <a
               href="#booking"
@@ -122,14 +129,18 @@ export default function Navbar() {
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1, duration: 0.5 }}
-              className="absolute top-6 left-6 flex items-center gap-3"
+              className="absolute top-6 left-6 flex items-center gap-2.5"
             >
-              <Monogram />
+              <LogoMark />
               <div className="flex flex-col">
-                <span className="font-heading text-[1.05rem] font-semibold tracking-[0.02em] text-foreground leading-tight">
+                <span className="font-heading text-[1.05rem] font-semibold tracking-[0.02em] leading-tight"
+                  style={{ background: "linear-gradient(135deg, #C5A044, #D4AF37, #A07D2A)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}
+                >
                   Vibe Signatures
                 </span>
-                <span className="text-[9px] font-medium tracking-[0.25em] uppercase text-foreground/40 leading-none mt-0.5">
+                <span className="text-[8.5px] font-semibold tracking-[0.28em] uppercase leading-none mt-0.5"
+                  style={{ background: "linear-gradient(135deg, #C5A044, #D4AF37, #A07D2A)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", opacity: 0.7 }}
+                >
                   Property Care
                 </span>
               </div>
@@ -167,10 +178,10 @@ export default function Navbar() {
                 Book Now
               </a>
               <a
-                href="tel:+14045550123"
+                href="tel:+18254549172"
                 className="text-[12px] font-medium tracking-[0.04em] text-foreground/40"
               >
-                (404) 555-0123
+                (825) 454-9172
               </a>
             </motion.div>
           </motion.div>

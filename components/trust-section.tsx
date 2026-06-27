@@ -4,9 +4,9 @@ import { useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 
 const stats = [
-  { value: "100+", label: "Properties serviced" },
-  { value: "4.9", label: "Average client rating" },
-  { value: "154+", label: "Professional cleaners" },
+  { value: "Eco", label: "Friendly products" },
+  { value: "Insured", label: "Fully covered" },
+  { value: "Vetted", label: "Professional team" },
   { value: "100%", label: "Satisfaction guaranteed" },
 ]
 

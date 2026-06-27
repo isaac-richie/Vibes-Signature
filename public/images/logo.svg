@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C5A044"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B8942E"/>
+    </linearGradient>
+  </defs>
+  <!-- VS Monogram -->
+  <g transform="translate(10, 5)">
+    <!-- V shape -->
+    <path d="M28 10 L52 95 L58 95 L82 10 L72 10 L55 75 L52 85 L49 75 L32 10 Z" fill="url(#gold)"/>
+    <!-- S shape intertwined -->
+    <path d="M42 28 C42 20, 50 14, 60 14 C70 14, 78 20, 78 28 C78 38, 68 42, 58 46 C48 50, 38 54, 38 66 C38 78, 48 86, 60 86 C72 86, 78 80, 78 72 L70 72 C70 76, 66 80, 60 80 C52 80, 46 76, 46 66 C46 58, 54 54, 64 50 C74 46, 84 40, 84 28 C84 16, 74 8, 60 8 C46 8, 36 16, 36 28 Z" fill="url(#gold)" opacity="0.9"/>
+  </g>
+  <!-- VIBE text -->
+  <text x="120" y="52" font-family="Georgia, serif" font-size="32" font-weight="600" letter-spacing="6" fill="url(#gold)">VIBE</text>
+  <!-- SIGNATURES text -->
+  <text x="120" y="88" font-family="Georgia, serif" font-size="32" font-weight="600" letter-spacing="6" fill="url(#gold)">SIGNATURES</text>
+</svg>

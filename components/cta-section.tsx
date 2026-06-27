@@ -42,10 +42,10 @@ export default function CtaSection() {
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform duration-300" />
               </a>
               <a
-                href="tel:+14045550123"
+                href="tel:+18254549172"
                 className="text-sm font-medium text-background/40 hover:text-background transition-colors duration-300"
               >
-                (404) 555-0123
+                (825) 454-9172
               </a>
             </div>
           </motion.div>

@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { ArrowRight, Check } from "lucide-react"
 
 const homeTypes = ["Studio / 1 Bed", "2 Bedrooms", "3 Bedrooms", "4+ Bedrooms"]
-const cleaningTypes = ["Standard", "Deep Clean", "Move-In / Out", "Office"]
+const cleaningTypes = ["Standard", "Deep Clean", "Move-In / Out", "Airbnb Turnover"]
 
 export default function BookingSection() {
   const ref = useRef(null)

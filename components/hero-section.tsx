@@ -112,9 +112,9 @@ export default function HeroSection() {
             className="flex items-center gap-8 mt-16 pt-8 border-t border-foreground/[0.06]"
           >
             {[
-              { value: "4.9", label: "Rating" },
-              { value: "100+", label: "Homes cleaned" },
-              { value: "Same day", label: "Available" },
+              { value: "Trusted", label: "By local hosts & homeowners" },
+              { value: "Eco-friendly", label: "Products used" },
+              { value: "100%", label: "Satisfaction guarantee" },
             ].map((stat) => (
               <div key={stat.label}>
                 <p className="text-lg font-heading font-semibold text-foreground">{stat.value}</p>
